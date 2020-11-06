@@ -1,8 +1,10 @@
+# Customized Version
+- Added built in copy of electron-dl.js 
+- In this, added option to open download when done
+- Decided to do this rather than fork the electron-dl repo for a minimal change and have to rebuild packages
+- Stuck with Electron 9.2 as 10.3 seems to break electron-dl altogether
+
 # Nativefier
-
-[![Build Status](https://travis-ci.org/jiahaog/nativefier.svg)](https://travis-ci.org/jiahaog/nativefier)
-[![npm version](https://badge.fury.io/js/nativefier.svg)](https://www.npmjs.com/package/nativefier)
-
 ![Dock](docs/dock.png)
 
 You want to make a native wrapper for WhatsApp Web (or any web page).
