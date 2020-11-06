@@ -1,5 +1,5 @@
 # Customized Version
-- Stuck with Electron 9.2 as 10.3 seems to break electron-dl altogether
+- Stuck with Electron 9.2 as 10.1 seems to break electron-dl altogether
 - Added built in copy of electron-dl.js 
 - Decided to do this rather than fork the electron-dl repo for a minimal change and have to rebuild packages
 - In this, added option to open download when done
