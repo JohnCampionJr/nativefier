@@ -13,11 +13,13 @@
   "scripts": {},
   "dependencies": {
     "electron-context-menu": "2.x",
-    "electron-dl": "3.x",
     "electron-squirrel-startup": "1.x",
     "electron-window-state": "5.x",
     "source-map-support": "0.x",
-    "wurl": "2.x"
+    "wurl": "2.x",
+    "ext-name": "^5.0.0",
+    "pupa": "^2.0.1",
+    "unused-filename": "^2.1.0"
   },
   "devDependencies": {
     "electron": "9.x"

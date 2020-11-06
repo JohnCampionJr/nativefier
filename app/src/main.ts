@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 import { app, crashReporter, globalShortcut, BrowserWindow } from 'electron';
-import electronDownload from 'electron-dl';
+import electronDownload from './components/electron-dl';
 
 import { createLoginWindow } from './components/loginWindow';
 import { createMainWindow } from './components/mainWindow';
